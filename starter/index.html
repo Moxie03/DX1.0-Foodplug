@@ -19,6 +19,7 @@
 </head>
 
 <body class="ourpagebody">
+
     <header>
         <nav class="nav-desktop">
             <div class="desktop-logo">
@@ -27,10 +28,10 @@
 
             <div class="desktop-linkcontainer">
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Explore Foods</li>
-                    <li>FAQ</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#explorefoods">Explore Foods</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
 
                 <button class="btn btn-red">+1(000) xxx-xxxx</button>
@@ -50,12 +51,29 @@
             <div class="hamburger-container" onclick="addandremove()">
                 <div class="menu"></div>
             </div>
+            <div class="mobile-link-container ">
+                <div class="mobile-links-content">
+                    <ul>
+
+                        <li><a href="#" class="active-link">Home</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#explorefoods">Explore Foods</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+
+                    <button class="btn">+1(000) xxx-xxxx</button>
+
+                </div>
+            </div>
+
         </nav>
+
 
     </header>
 
+
+    <!-- Header banner section starts here -->
     <main>
-        <!-- Header banner section starts here -->
 
         <div class="header-banner-section">
             <div class="banner-content-container">
@@ -103,11 +121,12 @@
         </div>
 
 
+
         <!-- Header counter section ends here -->
 
 
         <!-- About us section starts here -->
-        <div class="about-us">
+        <div class="about-us" id="aboutus">
             <div class="about-us-container">
                 <div class="about-us-cards-img">
                     <img src="./img/about1.png" alt="">
@@ -171,7 +190,7 @@
 
 
         <!-- explore foods section starts here -->
-        <div class="explore-foods-section">
+        <div class="explore-foods-section" id="explorefoods">
 
             <h2>Explore Our Foods</h2>
             <p>
@@ -228,7 +247,7 @@
 
 
         <!-- FAQ section starts here -->
-        <div class="faq-section">
+        <div class="faq-section" id="faq">
             <h2>Frequently Asked Questions</h2>
 
             <div class="faq-container">

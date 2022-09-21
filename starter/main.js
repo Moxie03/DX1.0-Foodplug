@@ -18,9 +18,12 @@ var ourbody = document.querySelector(".ourpagebody")
 // ourbody.style.background = "black"
 
 var hamburger = document.querySelector(".hamburger-container")
+var mobilelinkcontainer = document.querySelector(".mobile-link-container")
 
 
 
 function addandremove(){
     hamburger.classList.toggle('showburger')
+    mobilelinkcontainer.classList.toggle('showmobilelink')
+
 }
